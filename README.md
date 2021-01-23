@@ -1,6 +1,6 @@
 # Instagram Clone with Angular and Firebase
 
-![Project Image](project-image-url)
+![Project Image](https://github.com/NayanPatil1998/insta-clone-angular/blob/master/screenshots/SS1.png)
 
 ---
 
