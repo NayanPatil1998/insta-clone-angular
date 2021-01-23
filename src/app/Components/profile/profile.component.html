@@ -1,0 +1,17 @@
+<div class="">
+    <div class="text-center card-box">
+        <div class="member-card pt-2 pb-2">
+            <div class="thumb-lg member-thumb mx-auto"><img [src]="user.picture" class="rounded-circle img-thumbnail" alt="profile-image"></div>
+            <div class="">
+                <h4>{{user.name}}</h4>
+                <p class="text-muted">{{user.bio}}</p>
+                <p class="text-muted">{{user.email}}</p>
+                <p class="text-muted">{{user.country}}</p>
+            </div>
+            <ul class="social-links list-inline">
+                <li class="list-inline-item"><a (click)="getInstaUrl()" title="" data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Facebook"> <fa-icon [icon] ="faInstagram"></fa-icon> </a></li>
+    
+            </ul>            
+        </div>
+    </div>
+</div>

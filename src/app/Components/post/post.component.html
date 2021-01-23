@@ -1,0 +1,41 @@
+
+  <div class="Instagram-card">
+    <div class="Instagram-card-header">
+      <img [src]="post.userPic"class="Instagram-card-user-image">
+      <a class="Instagram-card-user-name"> {{post.by}} </a>
+      <div class="Instagram-card-time"> {{post.locationName}} </div>
+    </div>
+
+    <div class="Instagram-card-image">
+      <img [src]= "post.picture"/>
+    </div>
+
+    <div class="Instagram-card-content">
+      <!-- <button (click)="likePost()" class="btn"><fa-icon *ngIf="isLiked" class="likeIcon" [icon]="solidHeart" size="2x"></fa-icon><fa-icon *ngIf="!isLiked" [icon]="regularHeart" size="2x"></fa-icon></button> -->
+      
+
+      <!-- <p class="Likes">{{getCount()}} Likes</p> -->
+      <p><a class="Instagram-card-content-user"
+      >{{post.by}}</a>
+      {{post.caption}}
+      <!-- <br><a class="user-comment" href="https://www.instagram.com/chrisobrien64/">chrisobrien64</a> NO WAY! WAY TO GO ROGER MY BOI</br>
+      <br><a class="user-comment" href="https://www.instagram.com/artie_mcparty/">artie_mcparty</a> ROGER = BEST NINTENDO FAN.</br>
+      <br><a class="user-comment" href="https://www.instagram.com/theealeexj/">theealeexj</a> I JUST TRIED IT OUT TODAY ITS AMAZING</br> -->
+    <hr>
+    </div>  
+
+    <div class="Instagram-card-footer bg-transparent border-secondary d-flex justify-content-around align-content-center">
+      <div (click)="upvotePost()" class="text-primary">
+      <fa-icon [icon]="faThumbsUp" size="lg" primaryColor="blue"></fa-icon>
+      {{ upvote }}
+    </div>
+    <div (click)="downvotePost()" class="text-secondary">
+      <fa-icon [icon]="faThumbsDown" size="lg" primaryColor="blue"></fa-icon>
+      {{ downvote }}
+    </div>
+    <a [href]="getInstaUrl()" target="_blank" class="text-primary">
+      <fa-icon [icon]="faShareSquare" size="lg" primaryColor="blue"></fa-icon>
+    </a>
+    </div>
+
+  </div>

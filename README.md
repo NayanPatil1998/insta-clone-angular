@@ -1,27 +1,87 @@
-# InstagramClone
+# Instagram Clone with Angular and Firebase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
+![Project Image](project-image-url)
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Table of Contents
+You're sections headers will be used to reference location of destination.
 
-## Code scaffolding
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [License](#license)
+- [Author Info](#author-info)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Description
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Instagram Clone is Instagram inspired social media platform website, On this website user can create an account or login to existing account. After successful login user can create post with caption, location name and image
 
-## Running unit tests
+- [Live project link](https://instagramcloneangular.netlify.app/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Technologies
 
-## Running end-to-end tests
+- Angular 10
+- Firebase Realtime Database
+- Firebase Authentication
+- Firebase Storage
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## How To Use
+
+#### Installation
+
+Clone this project and open it in terminal 
+
+```bash
+    cd insta-clone-angular
+```
+
+and then for installing packages
+
+```bash
+    yarn  
+```
+
+now start the server
+
+```bash
+    ng serve -o  
+```
+## Author Info
+
+- Instagram - [@nayanpatil.js](https://instagram.com/nayanpatil.js)
+
+[Back To The Top](#Instagram-Clone-with-Angular-and-Firebase)
+
+## License
+
+MIT License
+
+Copyright (c) 2021 Nayan Patil
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+[Back To The Top](#Instagram-Clone-with-Angular-and-Firebase)
+
+---
+
